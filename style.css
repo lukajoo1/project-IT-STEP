@@ -156,7 +156,7 @@ header {
   height: 100vh;
   left: -120%;
   z-index: 9999;
-  background-color: #151b28a2;
+  background-color: rgb(21, 27, 40);
 }
 
 .burger-menu a {
