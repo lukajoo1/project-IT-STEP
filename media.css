@@ -1,0 +1,302 @@
+html {
+  font-size: 62.5%;
+}
+
+@media screen and (max-width: 60em) {
+  html {
+    font-size: 59.375%;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .second-nav {
+    display: none;
+  }
+
+  #coaches {
+    display: none;
+  }
+
+  #start-now {
+    display: none;
+  }
+
+  .navbar {
+    padding: 0rem 3rem;
+  }
+
+  header {
+    padding-right: 3rem;
+  }
+
+  .burger-menu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .burger-menu {
+    left: 0;
+  }
+
+  .burger-close {
+    display: block;
+    padding: 3rem;
+    align-self: flex-end;
+  }
+
+  .first-nav-lists {
+    gap: 0rem;
+  }
+
+  /* ///////////////////////////////////////// */
+
+  .hero-section {
+    justify-content: center;
+    padding: 7rem 6rem;
+  }
+
+  .hero-container {
+    position: static;
+  }
+
+  /* /////////////////////////////////// */
+
+  .pick-container p {
+    max-width: 50rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6rem;
+    justify-self: center;
+  }
+
+  .card p {
+    max-width: 25rem;
+  }
+
+  .card:nth-child(3) {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  /* //////////////////////////// */
+
+  .component-card div {
+    align-items: center;
+  }
+
+  .component-card h3 {
+    max-width: 15rem;
+  }
+
+  .component-card button {
+    padding: 1rem 5rem;
+  }
+
+  /* //////////////////////////// */
+
+  .carousel {
+    margin-left: 0rem;
+  }
+
+  .carousel-txt {
+    top: 45%;
+    left: 10%;
+  }
+
+  .carousel-img {
+    margin-bottom: 15rem;
+  }
+
+  /* ///////////////////////////////// */
+
+  .footer-cont {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  /* /////////////////////////////////////////////// */
+
+  .logo img {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  /* /////////////////////////////////////////////////// */
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* /////////////////////////////////// */
+
+  .pick-container h2 {
+    text-align: center;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card button {
+    padding: 1rem 3rem;
+  }
+
+  /* //////////////////////////// */
+
+  .sub-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-container h2 {
+    text-align: center;
+  }
+
+  /* /////////////////////////////////// */
+
+  .process-container h2 {
+    text-align: center;
+  }
+
+  /* /////////////////////////////////////// */
+
+  .component-cards {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .component-card div {
+    bottom: 5%;
+    left: 15%;
+  }
+
+  .component-card h3 {
+    max-width: 100%;
+  }
+
+  /* //////////////////////////// */
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-txt {
+    position: static;
+    width: 30rem;
+  }
+
+  .carousel-img {
+    margin-bottom: 0rem;
+    max-width: 48rem;
+  }
+
+  .carousel-img img {
+    width: 30rem;
+  }
+
+  .carousel-txt {
+    width: 30rem;
+  }
+
+  .carousel-container h2 {
+    text-align: center;
+  }
+
+  /* ///////////////////////////////// */
+  .footer-lists:nth-child(2) {
+    display: none;
+  }
+
+  .footer-nav {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    padding: 0;
+    justify-items: stretch;
+  }
+
+  .social-lists {
+    grid-column: 1 / -1;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .footer-cont {
+    gap: 1rem;
+    align-items: stretch;
+  }
+
+  footer {
+    padding: 3rem 3rem;
+  }
+
+  .footer-nav img {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .footer-cont p {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ////////////////////////////////////////// */
+
+  .form-btn {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  html {
+    font-size: 50%;
+  }
+
+  /* /////////////////////////////////////////// */
+
+  .logo img {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .logo h1 {
+    font-size: 2.4rem;
+  }
+
+  /* //////////////////////////////////////////////// */
+
+  .hero-container h2 {
+    font-size: 6.4rem;
+  }
+
+  /* ////////////////////////////////////////////////// */
+
+  .process-card {
+    padding: 1.6rem;
+  }
+
+  .process-card img:first-child {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .process-card img:last-child {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  /* ///////////////////////////////////////////////////// */
+}

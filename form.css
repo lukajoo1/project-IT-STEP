@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #fcfcfd;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.test {
+  min-height: 100vh;
+  background-color: #151b28;
+
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4rem;
+  max-width: 102rem;
+  width: 100%;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.input-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.form-container h2 {
+  font-family: "Bebas Neue";
+  font-size: 5.4rem;
+  font-weight: 400;
+}
+
+.form-container p {
+  font-family: "Roboto";
+  font-size: 1.8rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+input {
+  padding: 1.5rem;
+  background-color: #1c2534;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+input:focus {
+  outline: 0.1rem solid #a5acba;
+  color: #ffffff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+  /* background-color: transparent !important; */
+  caret-color: white;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+label {
+  font-family: "Noto Sans";
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+label:last-child {
+  margin-bottom: 2rem;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form-btn button {
+  padding: 1rem 10rem;
+}
+
+.back-link {
+  border: 0.1rem solid #ff8400;
+  transition: 0.3s;
+  border-radius: 0.5rem;
+  color: #ff8400;
+}
+
+.back-link button {
+  color: #ff8400;
+  transition: 0.3s;
+}
+
+.back-link:hover {
+  background-color: #df882b;
+}
+
+.back-link:hover button {
+  color: white;
+}
+
+.submit-btn {
+  background-color: #ff8400;
+  transition: 0.3s;
+  border-radius: 0.5rem;
+}
+
+.submit-btn:hover {
+  background-color: #bb6100;
+}

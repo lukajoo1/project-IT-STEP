@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="media.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Start now</title>
+  </head>
+  <body>
+    <section class="test">
+      <div class="form-container">
+        <div class="form-header">
+          <h2>ABOUT YOU</h2>
+          <p>
+            Fill in the form and let’s start the conversation — we’ll get back
+            to you soon!
+          </p>
+        </div>
+
+        <form action="https://api.everrest.educata.dev/echo/html" method="post">
+          <div class="input-cont">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div class="input-cont">
+            <label for="school">School</label>
+            <input
+              type="text"
+              id="school"
+              name="school"
+              placeholder="Your school"
+              required
+            />
+          </div>
+          <div class="input-cont">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your E-mail"
+              required
+            />
+          </div>
+          <div class="input-cont">
+            <label for="number">Phone number</label>
+            <input
+              type="tel"
+              id="number"
+              name="number"
+              placeholder="Your number"
+              required
+            />
+          </div>
+          <div class="input-cont">
+            <label for="message">Who you’re interesting in?</label>
+            <input
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Type here"
+              required
+            />
+            <label for="message"
+              >In what player or what positions are you looking for?</label
+            >
+          </div>
+          <div class="form-btn">
+            <a class="back-link" href="index.html"
+              ><button type="button">CANCEL</button></a
+            >
+            <button class="submit-btn">SAVE</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
