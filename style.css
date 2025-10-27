@@ -161,13 +161,14 @@ header {
 
 .burger-menu a {
   transition: 0.3s;
+  font-size: 1.6rem;
 }
 
 .burger-menu a:hover {
   color: #ff8400;
 }
 
-.burger-menu ul {
+.burger-menu-list {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -634,8 +635,6 @@ header {
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
-  bottom: 5%;
-  left: 5%;
   z-index: 99;
 }
 

@@ -36,6 +36,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    gap: 4rem;
   }
 
   .burger-menu {
@@ -177,9 +178,19 @@ html {
     row-gap: 3rem;
   }
 
-  .component-card div {
+  .first-comp {
     bottom: 5%;
     left: 15%;
+  }
+
+  .second-comp {
+    bottom: 5%;
+    left: 18%;
+  }
+
+  .third-comp {
+    bottom: 5%;
+    left: 12%;
   }
 
   .component-card h3 {
