@@ -178,19 +178,24 @@ html {
     row-gap: 3rem;
   }
 
-  .first-comp {
+  /* .component-card div {
+    left: auto;
+    bottom: auto;
+  } */
+
+  #first-comp {
     bottom: 5%;
-    left: 15%;
+    left: 16%;
   }
 
-  .second-comp {
+  #second-comp {
     bottom: 5%;
-    left: 18%;
+    left: 19%;
   }
 
-  .third-comp {
+  #third-comp {
     bottom: 5%;
-    left: 12%;
+    left: 11%;
   }
 
   .component-card h3 {
