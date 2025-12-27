@@ -1,11 +1,9 @@
 "use strict";
 
-const burgerIcon = document.querySelector(".burger"); // Changed from .burger-btn to .burger
+const burgerIcon = document.querySelector(".burger");
 const burgerMenu = document.querySelector(".burger-menu");
 const burgerClose = document.querySelector(".burger-close");
 const burgerList = document.querySelectorAll(".burger-menu-nav a");
-
-console.log(burgerList);
 
 function dissapear() {
   if (burgerMenu.classList.contains("active")) {
